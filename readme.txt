@@ -42,3 +42,7 @@ INSERT INTO `payment_request_payments` (`id`, `message`, `payment_id`, `payment_
 	(402, 'third payment', '003', 423456),
 	(403, 'fourt payment', '004', 423456),
 	(404, 'fiveth payment', '005', 423456);
+	
+TEST :: 
+
+http://localhost:8080/payment/details?paymentRequestId=323456	
